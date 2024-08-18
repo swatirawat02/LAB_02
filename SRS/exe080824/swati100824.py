@@ -1,8 +1,9 @@
-## maximum number between two integrers
+## WAP TO PRINT maximum of two number
 
 num1 = 20
 
-num2 =30
+num2 = 30
 
 num3 = 40
-#print( max())
+
+print(max(num1, num2))

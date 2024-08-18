@@ -1,13 +1,15 @@
-# print ("swati")-- the code is commeneted
+# print ("swati")-- this line is commented
 
-### SUM OF TWO NUMBERS
-num = 10
+### WAP for SUM OF TWO NUMBERS
+## without taking input from user
+##Print output in 2 ways
+num1 = 10
 num2 = 20
 
-sum = num + num2
+sum = num1 + num2
 
 print("sum is:", sum)
 
-print(num + num2)
+print(num1 + num2)
 
 ### Builtin.py

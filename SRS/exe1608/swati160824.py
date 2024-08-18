@@ -1,14 +1,20 @@
-num = int (input ( "Enter num1"))
+"""
 
-print (type (num) )
+Code to print table of any given number
+Take input from user
 
-print (num * 1 = num)
-print (num * 2 = num)
-print (num * 3 = num)
-print (num * 4 = num)
-print (num * 5 = num)
-print (num * 6 = num)
-print (num * 7 = num)
-print (num * 8 = num)
-print (num * 9 = num)
-print (num * 10 = num)
+"""
+num = int(input("Enter num1"))
+
+print(type(num))
+
+print(f"{num}* 1 = {num}")
+print(f"{num}* 2 = {num * 2}")
+print(f"{num}* 3 = {num * 3}")
+print(f"{num}* 4 = {num * 4}")
+print(f"{num}* 5 = {num * 5}")
+print(f"{num}* 6 = {num * 6}")
+print(f"{num}* 7 = {num * 7}")
+print(f"{num}* 8 = {num * 8}")
+print(f"{num}* 9 = {num * 9}")
+print(f"{num}* 10 = {num * 10}")

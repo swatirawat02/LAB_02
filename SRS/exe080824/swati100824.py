@@ -1,9 +1,13 @@
 ## WAP TO PRINT maximum of two number
 
-num1 = 20
+"""num1 = 20
 
 num2 = 30
 
 num3 = 40
 
-print(max(num1, num2))
+print(max(num1, num2))"""
+
+a = 5//2
+
+print (a)

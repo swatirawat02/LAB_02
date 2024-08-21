@@ -6,7 +6,7 @@ write program for basic calculator(sum/sub/mul/div
 """
 num1 = int(input("Enter First number"))
 num2 = int(input("Enter second number"))
-maximum = max(num1, num2)
+maximum = max(num1, num2 ,9)
 print(type(maximum))
 print(maximum)
 print(type(num1))

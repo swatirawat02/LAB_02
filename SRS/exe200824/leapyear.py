@@ -9,9 +9,9 @@ Use an if-else statement to make this determination.
 
 year = int(input("Enter the year you want to check"))
 
-if year//400 and year // 100 and year/4:
-    print("leap Year by 400")
-elif year //4:
+if (year % 400 == 0) and (year % 100 == 0):
+    print("It is a Century leap Year")
+elif (year % 4 == 0) and (year % 100 != 0):
     print("leap Year by 4")
 else:
     print("not leap year")
